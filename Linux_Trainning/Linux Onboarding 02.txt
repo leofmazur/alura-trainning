@@ -1,0 +1,36 @@
+Linux Onboarding02
+
+  164  mkdir glob
+  165  ls
+  166  rm -r glob/
+  167  ls
+  168  cd labs/
+  169  mkdir glob
+  170  cd glob/
+  171  touch arq1 arq2 arq3
+  172  touch arq10 arq100
+  173  ls
+  174  ls -a
+  175  touch tmp1 tmp2
+  176  ls
+  177  ls arq*
+  178  touch arq
+  179  ls arq*
+  180  ls arq1*
+  181  ls arq1?
+  182  ls arq??
+  183  ls arq???
+  184  touch arq90 arq78
+  185  ls
+  186  ls arq?????????
+  187  ls *1*
+  188  touch arq5 arq9
+  189  ls
+  190  ls ???[1-5]
+  191  touch arq50
+  192  ls ???[1-5]*
+  193  ls ???[1-5].
+  194  history
+  195  touch Arq1 Arq2
+  196  ls [A,a]rq[1-5]
+  197  history

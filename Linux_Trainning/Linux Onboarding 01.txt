@@ -1,0 +1,165 @@
+Linux Onboarding
+
+leofmazur@leonardo-pc:~$ history
+    1  ls
+    2  cd ./..
+    3  ls
+    4  cd leofmazur
+    5  ls
+    6  clear
+    7  exit
+    8  clear
+    9  sudo apt-update
+   10  sudo apt update
+   11  clear
+   12  exit
+   13  clear
+   14  pwd
+   15  ls -a
+   16  clear
+   17  cd
+   18  cd /var
+   19  ls
+   20  cd /log
+   21  cd /var/log
+   22  cd ./.
+   23  cd ./..
+   24  ld
+   25  ls
+   26  cd log
+   27  cd
+   28  pwd
+   29  cd /etc
+   30  cd
+   31  clear
+   32  mkdir labs
+   33  ls
+   34  cd labs
+   35  mkdir arqs_dirs
+   36  cd arqs_dirs/
+   37  pwd
+   38  cd ..
+   39  clear
+   40  cd arqs_dirs/
+   41  mkdir -p dir1/dir2/dir3/dir4
+   42  cd dir1
+   43  cd dir2/
+   44  cd dir3/
+   45  cd dir4/
+   46  ls
+   47  clear
+   48  cd ../../../../
+   49  clear
+   50  cd
+   51  mkdir -p dir1/dir2/dir3/dir4/dir5
+   52  cd labs/arqs_dirs/dir1/dir2/dir3/dir4/
+   53  ls
+   54  cd
+   55  mkdir -p labs/arqs_dirs/dir1/dir2/dir3/dir4/dir5
+   56  cd labs/arqs_dirs/dir1/dir2/dir3/dir4/dir5/
+   57  touch arq1
+   58  touch arq2
+   59  touch arq3 arq4
+   60  ls
+   61  touch .arq5
+   62  ls
+   63  ls -la
+   64  clear
+   65  cd ~/labs
+   66  pwd
+   67  cd arqs_dirs/
+   68  cd dir1/dir2/dir3/dir4/dir5/
+   69  ls
+   70  cd ..
+   71  rmdir dir5/
+   72  cd dir5/
+   73  rm arq1
+   74  rm arq2 arq3
+   75  cd ~/labs/arqs_dirs/
+   76  ls
+   77  rm -r dir1
+   78  ls
+   79  mkdir -p dir1/dir2/dir3
+   80  cd dir1/dir2/dir3/
+   81  touch arq1 arq2 arq3
+   82  cd ~/labs/arqs_dirs/
+   83  ls
+   84  rm -rf dir1/
+   85  mkdir -p Dir1/dir2
+   86  mkdir -p diretorio\ 1 diretorio\ 2
+   87  ls
+   88  cd..
+   89  cd ..
+   90  rm -rf arqs_dirs/
+   91  ls
+   92  mkdir arqs_dirs
+   93  ls
+   94  mkdir copy_move
+   95  cd copy_move/
+   96  mkdir dir1 dir2
+   97  ls
+   98  cd dir1
+   99  ls
+  100  touch arq1 arq2 arq3
+  101  ls
+  102  mkdir -p sub1/sub2
+  103  ls
+  104  cd ..
+  105  ls
+  106  cp -r dir1 dir2
+  107  la
+  108  ls
+  109  cd dir2
+  110  ls
+  111  rm - r dir1
+  112  cd ..
+  113  cd dir2
+  114  ls
+  115  rm -r dir1
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd dir1
+  120  cp -r * ../dir2
+  121  cd ..
+  122  ls
+  123  cd dir2
+  124  ls
+  125  rm -rf *
+  126  ls
+  127  cd ..
+  128  ls
+  129  cp -r dir1/* dir2
+  130  cd dir2
+  131  ls
+  132  ls ../dir1
+  133  cd ..
+  134  ls
+  135  cp -r dir1 dir3
+  136  ls
+  137  cd dir3
+  138  ls
+  139  cd ..
+  140  pwd
+  141  ls
+  142  mv dir1 dir4
+  143  ls
+  144  cd dir4
+  145  ls
+  146  cd ..
+  147  ls
+  148  mv dir4 dir1
+  149  ls
+  150  mkdir dir4
+  151  mv dir1/* dir4
+  152  ls
+  153  cd dir4
+  154  ls
+  155  cd ..
+  156  ls dir1/
+  157  cd dir4
+  158  ls
+  159  mv arq1 arq11
+  160  ls
+  161  cd ~
+  162  history

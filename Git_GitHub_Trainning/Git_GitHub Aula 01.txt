@@ -1,0 +1,79 @@
+Id CommandLine
+  -- -----------
+   1 dir
+   2 dir .\OneDrive\
+   3 dir Desktop
+   4 dir .\Documents\
+   5 dir
+   6 cd .\OneDrive\
+   7 cd .\Desktop\
+   8 dir
+   9 git clone https://github.com/leofmazur/sistema-de-cadastro.git
+  10 cd ..
+  11 cd .\Documents\
+  12 ls
+  13 dir
+  14 cd .\Alura\
+  15 cd .\Git_GitHub_Trainning\
+  16 cd .\sistema-de-cadastro\
+  17 dir
+  18 ls
+  19 cls
+  20 git log
+  21 :
+  22 cls
+  23 git log --oneline
+  24 git pull https://github.com/leofmazur/sistema-de-cadastro.git
+  25 git status
+  26 git commit .\index.html -m "linkando o app js com o html"
+  27 git config --global user.email "mazur.leonardo@outlook.com"
+  28 git config --global user.name "Leonardo"
+  29 git commit .\index.html -m "linkando o app js com o html"
+  30 cls
+  31 git commit .\app.js -m ""
+  32 git commit .\app.js -m "Atualizando o js"
+  33 git status
+  34 git push origin main
+  35 git push origin main
+  51 cls
+  52 cd ~
+  53 git commit . -m "adicionando um console log"
+  54 ls
+  55 cd .\Documents\
+  56 ls
+  57 dir
+  58 cd ..
+  59 ls
+  60 cd .\OneDrive\
+  61 cd .\Documents\
+  62 ls
+  63 cd
+  64 cd .\Alura\
+  65 ls
+  66 cd .\Git_GitHub_Trainning\
+  67 ls
+  68 cd .\sistema-de-cadastro\
+  69 ls
+  70 git commit . -m "adicionando um console log"
+  71 git pull
+  72 git push
+  73 git log --oneline
+  74 git restore --source d22c807 .
+  75 git log --online
+  76 git log --oneline
+  77 git push
+  78 git commit . -m "voltando para d22c807"
+  79 git push
+  80 git pull
+  81 git status
+  82 history
+  83 notepad
+  84 git log -p
+  85 git log --oneline
+  86 git log -p
+  87 git log --author="leofmazur"
+  88 git log --since=1.month.ago --until=1.day.ago
+  89 git log --since=1.month.ago --until=1.day.ago
+  90 git log --pretty="format:%h %s"
+  91 git clone <repositorio> <meu-projeto-clone>
+  92 git clone -branch new_feature <repositorio>

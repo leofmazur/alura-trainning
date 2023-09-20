@@ -1,0 +1,395 @@
+history
+    1  ls
+    2  cd ./..
+    3  ls
+    4  cd leofmazur
+    5  ls
+    6  clear
+    7  exit
+    8  clear
+    9  sudo apt-update
+   10  sudo apt update
+   11  clear
+   12  exit
+   13  clear
+   14  pwd
+   15  ls -a
+   16  clear
+   17  cd
+   18  cd /var
+   19  ls
+   20  cd /log
+   21  cd /var/log
+   22  cd ./.
+   23  cd ./..
+   24  ld
+   25  ls
+   26  cd log
+   27  cd
+   28  pwd
+   29  cd /etc
+   30  cd
+   31  clear
+   32  mkdir labs
+   33  ls
+   34  cd labs
+   35  mkdir arqs_dirs
+   36  cd arqs_dirs/
+   37  pwd
+   38  cd ..
+   39  clear
+   40  cd arqs_dirs/
+   41  mkdir -p dir1/dir2/dir3/dir4
+   42  cd dir1
+   43  cd dir2/
+   44  cd dir3/
+   45  cd dir4/
+   46  ls
+   47  clear
+   48  cd ../../../../
+   49  clear
+   50  cd
+   51  mkdir -p dir1/dir2/dir3/dir4/dir5
+   52  cd labs/arqs_dirs/dir1/dir2/dir3/dir4/
+   53  ls
+   54  cd
+   55  mkdir -p labs/arqs_dirs/dir1/dir2/dir3/dir4/dir5
+   56  cd labs/arqs_dirs/dir1/dir2/dir3/dir4/dir5/
+   57  touch arq1
+   58  touch arq2
+   59  touch arq3 arq4
+   60  ls
+   61  touch .arq5
+   62  ls
+   63  ls -la
+   64  clear
+   65  cd ~/labs
+   66  pwd
+   67  cd arqs_dirs/
+   68  cd dir1/dir2/dir3/dir4/dir5/
+   69  ls
+   70  cd ..
+   71  rmdir dir5/
+   72  cd dir5/
+   73  rm arq1
+   74  rm arq2 arq3
+   75  cd ~/labs/arqs_dirs/
+   76  ls
+   77  rm -r dir1
+   78  ls
+   79  mkdir -p dir1/dir2/dir3
+   80  cd dir1/dir2/dir3/
+   81  touch arq1 arq2 arq3
+   82  cd ~/labs/arqs_dirs/
+   83  ls
+   84  rm -rf dir1/
+   85  mkdir -p Dir1/dir2
+   86  mkdir -p diretorio\ 1 diretorio\ 2
+   87  ls
+   88  cd..
+   89  cd ..
+   90  rm -rf arqs_dirs/
+   91  ls
+   92  mkdir arqs_dirs
+   93  ls
+   94  mkdir copy_move
+   95  cd copy_move/
+   96  mkdir dir1 dir2
+   97  ls
+   98  cd dir1
+   99  ls
+  100  touch arq1 arq2 arq3
+  101  ls
+  102  mkdir -p sub1/sub2
+  103  ls
+  104  cd ..
+  105  ls
+  106  cp -r dir1 dir2
+  107  la
+  108  ls
+  109  cd dir2
+  110  ls
+  111  rm - r dir1
+  112  cd ..
+  113  cd dir2
+  114  ls
+  115  rm -r dir1
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd dir1
+  120  cp -r * ../dir2
+  121  cd ..
+  122  ls
+  123  cd dir2
+  124  ls
+  125  rm -rf *
+  126  ls
+  127  cd ..
+  128  ls
+  129  cp -r dir1/* dir2
+  130  cd dir2
+  131  ls
+  132  ls ../dir1
+  133  cd ..
+  134  ls
+  135  cp -r dir1 dir3
+  136  ls
+  137  cd dir3
+  138  ls
+  139  cd ..
+  140  pwd
+  141  ls
+  142  mv dir1 dir4
+  143  ls
+  144  cd dir4
+  145  ls
+  146  cd ..
+  147  ls
+  148  mv dir4 dir1
+  149  ls
+  150  mkdir dir4
+  151  mv dir1/* dir4
+  152  ls
+  153  cd dir4
+  154  ls
+  155  cd ..
+  156  ls dir1/
+  157  cd dir4
+  158  ls
+  159  mv arq1 arq11
+  160  ls
+  161  cd ~
+  162  history
+  163  ssh -i "id_rsa" ubuntu@ec2-3-14-254-151.us-east-2.compute.amazonaws.com
+  164  mkdir glob
+  165  ls
+  166  rm -r glob/
+  167  ls
+  168  cd labs/
+  169  mkdir glob
+  170  cd glob/
+  171  touch arq1 arq2 arq3
+  172  touch arq10 arq100
+  173  ls
+  174  ls -a
+  175  touch tmp1 tmp2
+  176  ls
+  177  ls arq*
+  178  touch arq
+  179  ls arq*
+  180  ls arq1*
+  181  ls arq1?
+  182  ls arq??
+  183  ls arq???
+  184  touch arq90 arq78
+  185  ls
+  186  ls arq?????????
+  187  ls *1*
+  188  touch arq5 arq9
+  189  ls
+  190  ls ???[1-5]
+  191  touch arq50
+  192  ls ???[1-5]*
+  193  ls ???[1-5].
+  194  history
+  195  touch Arq1 Arq2
+  196  ls [A,a]rq[1-5]
+  197  history
+  198  exit
+  199  ls
+  200  cd labs/
+  201  mkdir filtrando_conteudo
+  202  cd filtrando_conteudo/
+  203  ls
+  204  cp /etc/services .
+  205  ls
+  206  cat services
+  207  ls services
+  208  grep http*
+  209  cd labs/
+  210  cd filtrando_conteudo/
+  211  grep http services
+  212  grep https services
+  213  grep -i http services
+  214  cp /etc/passwd .
+  215  cat passwd
+  216  grep leo *
+  217  grep -l leo *
+  218  ls
+  219  mkdir teste
+  220  cd teste
+  221  cp ../services .
+  222  ls
+  223  mv services services2
+  224  ls
+  225  cd ..
+  226  grep HTTP services
+  227  grep HTTP *
+  228  grep -rl HTTP *
+  229  grep -r HTTP *
+  230  ls
+  231  more passwd
+  232  cat services
+  233  more services
+  234  cat services
+  235  more services
+  236  less services
+  237  tail /etc/passwd
+  238  head /etc/passwd
+  239  tail -n 3 /etc/passwd
+  240  history
+  241  cd..
+  242  cd ..
+  243  cd /
+  244  ls
+  245  find / -name *.conf
+  246  sudo find / -name *.conf
+  247  sudo find /etc -maxdepth 2 -name *.conf
+  248  cd labs
+  249  ls
+  250  cd ..
+  251  ls
+  252  cd ~
+  253  ls
+  254  cd labs/
+  255  cd glob/
+  256  ls
+  257  touch novo-teste
+  258  ls
+  259  ls -l
+  260  cd 33
+  261  cd ..
+  262  find . -amin 5
+  263  find. -amin -5
+  264  find . -amin -5
+  265  find . -atime -2
+  266  sudo find / -size +100Mb
+  267  sudo find / -size +100M
+  268  ls -l /swap.img
+  269  ls -lh /swap.img
+  270  sudo find / -size +1G
+  271  sudo find / -size +2G
+  272  history
+  273  exit
+  274  cd labs/
+  275  mkdir redirecionamento
+  276  cd redirecionamento/
+  277  cp /etc/services .
+  278  ls
+  279  grep ssh services > listagem.txt
+  280  cat listagem.txt
+  281  grep 3389 ssh services > listagem.txt
+  282  grep 3389 services > listagem.txt
+  283  cat listagem.txt
+  284  grep ssh services > listagem.txt
+  285  grep 3389 services >> listagem.txt
+  286  cat listagem.txt
+  287  cat /etc/passwd | grep leofmazur > listagem_usuarios
+  288  ls
+  289  cat listagem.txt
+  290  cat listagem.txt | sort
+  291  cat listagem.txt | sort > listagem.txt
+  292  cat listagem.txt
+  293  grep 3389 services > listagem.txt
+  294  grep ssh services >> listagem.txt
+  295  cat listagem.txt
+  296  cat listagem.txt | sort
+  297  cat listagem.txt | sort listagem2.txt
+  298  cat listagem2.txt
+  299  cat listagem.txt | sort
+  300  cat listagem.txt | sort listagem2.txt
+  301  cat listagem.txt
+  302  ls
+  303  cat listagem.txt | sort
+  304  cat listagem.txt | sort > listagem2.txt
+  305  ls
+  306  cat listagem2.txt
+  307  cd /var/log
+  308  ls
+  309  tail syslog
+  310  tail -n 5 syslog
+  311  tail -n 5 syslog | grep systemd
+  312  tail -n 5 syslog | grep systemd > log5.txt
+  313  sudo tail -n 5 syslog | grep systemd > ~/labs/redirecionamento/log5.txt
+  314  ls ~/labs/redirecionamento/
+  315  history
+  316  cd ~
+  317  cd labs/redirecionamento/
+  318  cd ..
+  319  mkdir extraindo_conteudos
+  320  cd /var/log
+  321  cat syslog | grep systemd
+  322  cat syslog | grep systemd | less
+  323  cat syslog | grep systemd | wc
+  324  cat syslog | grep systemd | wc -l
+  325  cat syslog | grep systemd > ~/labs/extraindo_conteudos/logs
+  326  cd~/labs/extraindo_conteudos
+  327  cd ~/labs/extraindo_conteudos/
+  328  ls
+  329  cat logs
+  330  cat logs | cut -d " " -f1
+  331  cat logs | cut -d " " -f6
+  332  cat logs | cut -d " " -f6-
+  333  cat logs | cut -d " " -f6- > logs1
+  334  cat logs1
+  335  cat logs
+  336  cat logs | cut -d " " -f1-3,6-
+  337  cat logs | cut -d " " -f1-3,6- > logs2.txt
+  338  cat logs2.txt
+  339  history
+  340  cp --help
+  341  q
+  342  cd ..
+  343  sudo apt install wamerican
+  344  sudo apt update
+  345  sudo apt install wamerican
+  346  find /usr -name *american*
+  347  mkdir expressoes
+  348  cd expressoes/
+  349  cp /usr/share/dict/american-english .
+  350  more american-english
+  351  wc american-english
+  352  cat american-english | grep computer
+  353  find . -name *american*
+  354  find american-english -name *american*
+  355  cat american-english | grep -E "^computer"
+  356  cat american-english | grep -E "computer$"
+  357  cat american-english | grep -E "^computer$"
+  358  clear
+  359  echo "COMPUTER" >> american-english
+  360  echo "Computer" >> american-english
+  361  echo "COMPUTER" >> american-english
+  362  cat american-english | grep -iE "^computer$"
+  363  clear
+  364  egrep "^computer$" american-english
+  365  clear
+  366  cat smartphone american-english
+  367  cat american-english | grep smartphone
+  368  cat american-english | grep -iE "smartphone|computer"
+  369  cat american-english | grep -iE "^smartphone$|^computer$"
+  370  clear
+  371  egrep "^.oot" american-english
+  372  egrep "^.oot$" american-english
+  373  egrep "^.oot.." american-english
+  374  egrep "^.oot..$" american-english
+  375  egrep "^[fhlmr]oot..$" american-english
+  376  egrep "^[l-n]oot..$" american-english
+  377  clear
+  378  cd ..
+  379  mkdir editores
+  380  cd editores/
+  381  cat /etc/services | head > edit1 .
+  382  cat /etc/services | head > edit1
+  383  ls
+  384  cat /etc/services | head -n 50 > edit1
+  385  cat edit1
+  386  wc edit1
+  387  nano edit1
+  388  nano
+  389  ls
+  390  vi
+  391  vi edit1
+  392  vi edit3
+  393  vi edit1
+  394  history
